@@ -169,7 +169,8 @@ namespace Parcial_I
 
         private void buttonCantidadEstudiantes_Click(object sender, EventArgs e)
         {
-
+            labelCantidad.Visible = true;
+            labelCantidad.Text = inscripciones.Count.ToString();
         }
     }
 }

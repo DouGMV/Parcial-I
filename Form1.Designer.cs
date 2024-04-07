@@ -37,6 +37,8 @@
             this.buttonReporte = new System.Windows.Forms.Button();
             this.buttonOrdenar = new System.Windows.Forms.Button();
             this.buttonCantidadEstudiantes = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelCantidad = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,11 +136,32 @@
             this.buttonCantidadEstudiantes.UseVisualStyleBackColor = true;
             this.buttonCantidadEstudiantes.Click += new System.EventHandler(this.buttonCantidadEstudiantes_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(326, 381);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(155, 16);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Cantidad de estudiantes:";
+            // 
+            // labelCantidad
+            // 
+            this.labelCantidad.AutoSize = true;
+            this.labelCantidad.Location = new System.Drawing.Point(517, 381);
+            this.labelCantidad.Name = "labelCantidad";
+            this.labelCantidad.Size = new System.Drawing.Size(44, 16);
+            this.labelCantidad.TabIndex = 10;
+            this.labelCantidad.Text = "label4";
+            this.labelCantidad.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelCantidad);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonCantidadEstudiantes);
             this.Controls.Add(this.buttonOrdenar);
             this.Controls.Add(this.buttonReporte);
@@ -168,6 +191,8 @@
         private System.Windows.Forms.Button buttonReporte;
         private System.Windows.Forms.Button buttonOrdenar;
         private System.Windows.Forms.Button buttonCantidadEstudiantes;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelCantidad;
     }
 }
 
